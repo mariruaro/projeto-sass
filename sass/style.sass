@@ -1,0 +1,16 @@
+//sass style.sass ..\css\style.css
+
+$black: #000
+$white:#fff
+
+=fontMixin($font, $weight, $size, $color)
+	font-family: $font
+	font-weight: $weight
+	font-size: $size
+	color: $color
+
+body
+	background-color:$black
+	#home
+		h1
+			+fontMixin(Helvetica, 700, 100px, $white)
