@@ -1,0 +1,11 @@
+body {
+  background-color: #000;
+}
+body #home h1 {
+  font-family: Helvetica;
+  font-weight: 700;
+  font-size: 100px;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */
